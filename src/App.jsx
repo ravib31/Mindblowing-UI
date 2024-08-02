@@ -4,6 +4,7 @@ import Collab from "./components/Collab";
 // import Button from "./components/Button";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Services from "./components/Services";
 const  App = ()=> {
   return (
     <>
@@ -12,6 +13,7 @@ const  App = ()=> {
         <Home/>
         <Benefits/>
         <Collab/>
+        <Services/>
       </div>
       <ButtonGradient/>
     </>

@@ -2,7 +2,7 @@ import { curve, heroBackground} from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
+import { backgroundImageUrl, heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generated from "./Generated";
@@ -10,7 +10,8 @@ import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
 const Home = () => {
-  const roboImageUrl = "https://images.unsplash.com/photo-1583094985888-774dfe684b79?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9ib3QlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D"
+  // const roboImageUrl = "https://cdn.pixabay.com/photo/2023/03/05/21/11/ai-generated-7832244_1280.jpg"
+  
 
   const parallaxRef = useRef(null);
   return (
@@ -50,7 +51,7 @@ const Home = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={roboImageUrl}
+                  src={backgroundImageUrl}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:translate-y-[10%] lg:-translate-y-[23%]"
                   width={1440}
                   height={490}
@@ -82,7 +83,7 @@ const Home = () => {
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
-              className="w-full  width={1440} height={1800} "
+              className="w-full  width={1140} height={1800} "
               alt="hero"
             />
           </div>

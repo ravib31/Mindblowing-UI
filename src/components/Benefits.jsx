@@ -1,4 +1,4 @@
-import { benefits } from "../constants";
+import { benefits, roboImageUrl } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
@@ -6,7 +6,6 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
-    const roboImageUrl = "https://images.unsplash.com/photo-1625314887424-9f190599bd56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJvYm90JTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D";
   return (
     <Section id="features">
       <div className="container relative z-2">
