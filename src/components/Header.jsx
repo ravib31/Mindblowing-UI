@@ -1,5 +1,3 @@
-// import { brainwave } from "../assets";
-// import { logoip } from "../assets/logoip.svg";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 import Button from "../components/Button";

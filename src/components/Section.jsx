@@ -1,6 +1,5 @@
 import SectionSvg from "../assets/svg/SectionSvg";
 const Section = ({
-  // className,
   id,
   crosses,
   crossesOffset,
