@@ -100,43 +100,9 @@ export const brainwaveServicesIcons = [
 
 export const backgroundImageUrl = "https://cdn.pixabay.com/photo/2020/05/21/21/30/ai-5202869_1280.jpg";
 export const roboImageUrl = "https://cdn.pixabay.com/photo/2023/03/05/21/11/ai-generated-7832245_1280.jpg";
-
-export const roadmap = [
-  {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
-];
-
+export const service1 = "https://cdn.pixabay.com/photo/2017/11/28/18/52/bee-2984342_1280.jpg"
+export const service2 = "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHJvYm90fGVufDB8fDB8fHww"
+export const service3 = "https://plus.unsplash.com/premium_photo-1680607980708-d2532db7a529?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxyb2JvdHxlbnwwfHwwfHx8MA%3D%3D"
 export const collabText =
   "With smart automation,it's makes your thinking mindblowing";
 
@@ -229,17 +195,7 @@ export const pricing = [
       "Ability to explore the app and its features without any cost",
     ],
   },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
+ 
   {
     id: "2",
     title: "Enterprise",
@@ -249,6 +205,17 @@ export const pricing = [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
+    ],
+  },
+  {
+    id: "1",
+    title: "Premium",
+    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    price: "9.99",
+    features: [
+      "An advanced AI chatbot that can understand complex queries",
+      "An analytics dashboard to track your conversations",
+      "Priority support to solve issues quickly",
     ],
   },
 ];
@@ -305,6 +272,44 @@ export const benefits = [
     imageUrl: benefitImage2,
   },
 ];
+
+
+export const roadmap = [
+  {
+    id: "0",
+    title: "Voice recognition",
+    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    date: "May 2024",
+    status: "done",
+    imageUrl: roadmap1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Gamification",
+    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    date: "May 2024",
+    status: "progress",
+    imageUrl: roadmap2,
+  },
+  {
+    id: "2",
+    title: "Chatbot customization",
+    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    date: "May 2024",
+    status: "done",
+    imageUrl: roadmap3,
+  },
+  {
+    id: "3",
+    title: "Integration with APIs",
+    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    date: "May 2024",
+    status: "progress",
+    imageUrl: roadmap4,
+  },
+];
+
 
 export const socials = [
   {

@@ -10,7 +10,6 @@ import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
 const Home = () => {
-  // const roboImageUrl = "https://cdn.pixabay.com/photo/2023/03/05/21/11/ai-generated-7832244_1280.jpg"
   
 
   const parallaxRef = useRef(null);

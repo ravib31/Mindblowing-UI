@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import {  service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import {  check } from "../assets";
+import { brainwaveServices, brainwaveServicesIcons, service1, service2, service3 } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -12,6 +12,7 @@ import {
 import Generated from "./Generated";
 
 const Services = () => {
+  
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -28,7 +29,7 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src="https://cdn.pixabay.com/photo/2017/11/28/18/52/bee-2984342_1280.jpg"
+                src={service1}
               />
             </div>
 
