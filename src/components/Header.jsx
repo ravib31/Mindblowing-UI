@@ -1,4 +1,4 @@
-import { navigation } from "../constants";
+import { logoImage, navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 import Button from "../components/Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -31,8 +31,8 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img width={160} height={35} src="src/assets/yourlogosix.svg" alt="MindBlowing" />
+        <a className="block w-[12rem] xl:mr-8 " href="#hero">
+          <img className="rounded-full" width={60} height={35} src={logoImage} alt="MindBlowing" />
         </a>
         <nav
           className={`${

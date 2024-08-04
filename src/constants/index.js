@@ -99,6 +99,7 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
+export const logoImage = "https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?size=626&ext=jpg"
 export const backgroundImageUrl = "https://cdn.pixabay.com/photo/2020/05/21/21/30/ai-5202869_1280.jpg";
 export const roboImageUrl = "https://cdn.pixabay.com/photo/2023/03/05/21/11/ai-generated-7832245_1280.jpg";
 export const service1 = "https://cdn.pixabay.com/photo/2017/11/28/18/52/bee-2984342_1280.jpg"
